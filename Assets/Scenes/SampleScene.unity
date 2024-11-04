@@ -384,8 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5721e5d9d6d75e043927cb47d47b99b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaHeroi: 100
-  vidaVilao: 300
+  estadoVilao: 1
 --- !u!114 &153064694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,7 +405,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153064688}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d55d25e68d0faf248b118b0f36d69b3b, type: 3}
   m_Name: 
@@ -2571,6 +2570,8 @@ GameObject:
   - component: {fileID: 1933461644}
   - component: {fileID: 1933461643}
   - component: {fileID: 1933461647}
+  - component: {fileID: 1933461648}
+  - component: {fileID: 1933461649}
   m_Layer: 0
   m_Name: idle1
   m_TagString: Untagged
@@ -2724,6 +2725,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerUp: 1
+--- !u!114 &1933461648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933461642}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455755c4f7e825547856703b2cbf4dcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pocaoVida: 1
+--- !u!114 &1933461649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933461642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c931ee9e5e82e84ebaadd6c7d803748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pontos: 50
 --- !u!1 &1945308897
 GameObject:
   m_ObjectHideFlags: 0
