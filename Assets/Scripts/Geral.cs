@@ -26,7 +26,7 @@ public class Geral : MonoBehaviour
     //>=(maior igual)
 
     //operadores logicos
-    //&& 
+    //&&
 
     //If nao compara se e maior que algo
 
