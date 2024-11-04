@@ -1,15 +1,25 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class exercicio2 : MonoBehaviour
 {
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] bool powerUp; 
+    //! inverte o valor
     void Start()
     {
-        
+        //if (powerUp == true)
+        //{
+        //    print("power-up Coletado");
+        //}
+        //else
+        //{
+        //    print("nenhum power-up encontrado");
+        //}
+
+        //Condicao ? caso vdd: caso falso 
+        print (powerUp == true ? "power-up Coletado" : "nenhum power-up encontrado");
     }
 
-    // Update is called once per frame
     void Update()
     {
         
