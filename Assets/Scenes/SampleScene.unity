@@ -228,7 +228,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -265,6 +265,8 @@ GameObject:
   - component: {fileID: 153064691}
   - component: {fileID: 153064690}
   - component: {fileID: 153064689}
+  - component: {fileID: 153064693}
+  - component: {fileID: 153064694}
   m_Layer: 0
   m_Name: player-idle1
   m_TagString: Untagged
@@ -405,6 +407,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &153064693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153064688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5721e5d9d6d75e043927cb47d47b99b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaHeroi: 100
+  vidaVilao: 300
+--- !u!114 &153064694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153064688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d833dfc544349248b56da6742fdb2f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaHeroi: 10
 --- !u!1 &178881747
 GameObject:
   m_ObjectHideFlags: 0
