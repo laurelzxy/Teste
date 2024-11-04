@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Geral : MonoBehaviour
@@ -13,7 +14,7 @@ public class Geral : MonoBehaviour
 
     //char apelido = 't';
 
-    //bool vivo = false;
+    //bool vivo = false
 
 
     //operadores relacionais
@@ -24,11 +25,17 @@ public class Geral : MonoBehaviour
     //<= (menor igual)
     //>=(maior igual)
 
+    //operadores logicos
+    //&& 
 
+    //If nao compara se e maior que algo
 
-    [SerializeField] int vidaHeroi = 100;
-    [SerializeField] int vidaVilao = 300;
-    string resultado;
+     //switch case comparacao de igualdade
+    //estado 1 - vilao ataca
+    //estado 2 - vilao defende
+    //estado 3 - vilao toma dano 
+
+    [SerializeField] int estadoVilao = 1;
 
 
     
@@ -36,6 +43,24 @@ public class Geral : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+
+        switch (estadoVilao)
+        {
+            case 1:
+                print("vilao atacando");
+                    break;
+            case 2:
+                print("vilao defende");
+                break;
+            case 3:
+                print("vilao tomando um coro");
+                    break;
+
+            default:
+                print("valor nao indentificado");
+                break;
+
+        }
         //Debug.Log("Hello Word!");
         //print(vidaVilao == vidaHeroi);false
 
@@ -44,19 +69,8 @@ public class Geral : MonoBehaviour
         //resultado = vidaHeroi < vidaVilao ? "Vida Heroi Menor" : "Vida Heroi Maior");
 
         //estrutura condicional
-        if (vidaHeroi < vidaVilao)
-        {
-            //print("Vida Heroi Menor");
-            //print("Vida Heroi Menor");
+        
 
-            resultado = "Vida Heroi Menor";
-            print(resultado);
-        }
-        else if (vidaHeroi == vidaVilao)
-        {
-            resultado = "Vida Heroi igual a vida Vilao";
-            print(resultado);
-        }
         
         
     }
