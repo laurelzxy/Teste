@@ -269,6 +269,8 @@ GameObject:
   - component: {fileID: 153064695}
   - component: {fileID: 153064696}
   - component: {fileID: 153064697}
+  - component: {fileID: 153064698}
+  - component: {fileID: 153064699}
   m_Layer: 0
   m_Name: player-idle1
   m_TagString: Untagged
@@ -456,12 +458,40 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153064688}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f958cf930d1bb644296d402bfe4722f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   numeroFaces: 100
+--- !u!114 &153064698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153064688}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a1a3bc968ff02b47b4730e261430b57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &153064699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153064688}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2906be7d393344aade659b7b779623, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resultadoMax: 5
+  resultadoMin: 0
+  resultadoA: 0
+  resultadoB: 0
 --- !u!1 &178881747
 GameObject:
   m_ObjectHideFlags: 0
@@ -2587,6 +2617,7 @@ GameObject:
   - component: {fileID: 1933461648}
   - component: {fileID: 1933461649}
   - component: {fileID: 1933461650}
+  - component: {fileID: 1933461651}
   m_Layer: 0
   m_Name: idle1
   m_TagString: Untagged
@@ -2773,13 +2804,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933461642}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4505942e0194c7848b97f10a0b0acec8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   guerreiro: 1
   mago: 0
+--- !u!114 &1933461651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933461642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e10b3c75bdf9a564a80fc1eaf2a35315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventario: 1
 --- !u!1 &1945308897
 GameObject:
   m_ObjectHideFlags: 0
