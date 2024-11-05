@@ -2572,6 +2572,7 @@ GameObject:
   - component: {fileID: 1933461647}
   - component: {fileID: 1933461648}
   - component: {fileID: 1933461649}
+  - component: {fileID: 1933461650}
   m_Layer: 0
   m_Name: idle1
   m_TagString: Untagged
@@ -2745,12 +2746,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933461642}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4c931ee9e5e82e84ebaadd6c7d803748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pontos: 50
+--- !u!114 &1933461650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933461642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4505942e0194c7848b97f10a0b0acec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  guerreiro: 1
+  mago: 0
 --- !u!1 &1945308897
 GameObject:
   m_ObjectHideFlags: 0
