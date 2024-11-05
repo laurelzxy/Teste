@@ -8,10 +8,18 @@ using UnityEngine;
 //valor_max); (Coloque o código dentro da função-evento Start).
 public class exercicio7 : MonoBehaviour
 {
-    [SerializeField] int numeroFaces = 100;
+    [SerializeField] int numeroFaces;
     void Start()
     {
-        print(Random.Range(4, numeroFaces));
+        //if(numeroFaces == 0)
+        //{
+        //    print("O numero de faces do dadi nao pode ser: " + numeroFaces);
+        //}
+        //else
+        //{
+        //    print(Random.Range(1, numeroFaces));
+        //}
+        print(numeroFaces == 0 ? ("o numero de faces do dado nao pode ser: " + numeroFaces) : (Random.Range(1, numeroFaces)));
     }
 
     void Update()

@@ -458,12 +458,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153064688}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f958cf930d1bb644296d402bfe4722f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numeroFaces: 100
+  numeroFaces: 4
 --- !u!114 &153064698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2618,6 +2618,7 @@ GameObject:
   - component: {fileID: 1933461649}
   - component: {fileID: 1933461650}
   - component: {fileID: 1933461651}
+  - component: {fileID: 1933461652}
   m_Layer: 0
   m_Name: idle1
   m_TagString: Untagged
@@ -2818,12 +2819,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933461642}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e10b3c75bdf9a564a80fc1eaf2a35315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   inventario: 1
+--- !u!114 &1933461652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933461642}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4217fbebf94e2ce4c969eca693edf031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interacao: 1
+  NPC: 1
 --- !u!1 &1945308897
 GameObject:
   m_ObjectHideFlags: 0
