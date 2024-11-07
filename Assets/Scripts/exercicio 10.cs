@@ -20,6 +20,9 @@ public class exercicio10 : MonoBehaviour
             case 3:
                 print("Power-up coletado \n velocidade aumentada");
                     break;
+            default:
+                Debug.Log("Item desconhecido");
+                break;
         }
 
     }

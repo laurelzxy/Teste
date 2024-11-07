@@ -8,9 +8,11 @@ public class exercicio6 : MonoBehaviour
 {
     [SerializeField] bool guerreiro;
     [SerializeField] bool mago;
+
     void Start()
     {
         print(guerreiro == true ? "Guerreiro escolhido" : "Mago escolhido");
+        
     }
 
     void Update()

@@ -11,14 +11,17 @@ public class exercicio5 : MonoBehaviour
 
     void Start()
     {
-        if (pontos >= 50)
-        {
-            print("missao bem-sucedida");
-        }
-        else
-        {
-            print("missao incompleta");
-        }
+        //if (pontos >= 50)
+        //{
+        //    print("missao bem-sucedida");
+        //}
+        //else
+        //{
+        //    print("missao incompleta");
+        //}
+
+        //ternario
+        print(pontos >= 50 ? "Missao bem-sucedida" : "Missao imcompleta");
 
 
      }

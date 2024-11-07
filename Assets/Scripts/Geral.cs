@@ -16,6 +16,8 @@ public class Geral : MonoBehaviour
 
     //bool vivo = false
 
+    //! inverte o valor dele
+
 
     //operadores relacionais
     //== (igual)

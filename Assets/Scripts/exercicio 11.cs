@@ -8,36 +8,31 @@ using UnityEngine;
 public class exercicio11 : MonoBehaviour
 {
     [SerializeField] int interacao = 1;
-    [SerializeField] int NPC = 1;
+    
 
     void Start()
     {
         switch (interacao)
         {
             case 1:
-                print("Oie migo");
-                break;
-            case 2:
-                print("Bom dia!!");
-                break;
-            case 3:
-                print("Boa noite!!");
+                print("DA para fazer com ternario?");
                     break;
-        }
 
-        switch( NPC)
-        {
-            case 1:
-                print("ola tudo bem?");
-                    break;
             case 2:
-                print("como vai?");
-                    break;
+                print("Sextou!!!");
+                break;
+
             case 3:
-                print("ate amanha!!");
+                print("Cade o tadeu");
+                    break;
+
+            default:
+                print("não tenho nada a dizer sobre isso");
                 break;
 
         }
+
+        
     }
 
     void Update()

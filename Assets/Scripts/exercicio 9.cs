@@ -7,15 +7,13 @@ using UnityEngine;
 //escreva que foi “um empate emocionante”.
 public class exercicio9 : MonoBehaviour
 {
-    [SerializeField] int resultadoMax= 5;
-    [SerializeField] int resultadoMin= 0;
+    
     [SerializeField] int resultadoA ;
     [SerializeField] int resultadoB ;
     void Start()
     {
-        resultadoA = Random.Range(resultadoMax, resultadoMin);
-        resultadoB = Random.Range(resultadoMax, resultadoMin);
-        print("Time A: " + resultadoA + "\n Time B: " + resultadoB);
+        resultadoA = Random.Range(1, 5);
+        resultadoB = Random.Range(1, 5);
 
         if (resultadoA == resultadoB && resultadoA >= 3 && resultadoB >=3 )
         {
