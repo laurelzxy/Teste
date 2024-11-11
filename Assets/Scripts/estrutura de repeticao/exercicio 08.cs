@@ -4,7 +4,7 @@ using UnityEngine;
 //string usando um loop for.
 public class exercicio08 : MonoBehaviour
 {
-    string nome = "laura
+    string nome = "laura";
     string inverter;
     void Start()
     {
