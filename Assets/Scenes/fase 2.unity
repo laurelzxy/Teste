@@ -593,6 +593,13 @@ GameObject:
   - component: {fileID: 983143452}
   - component: {fileID: 983143456}
   - component: {fileID: 983143457}
+  - component: {fileID: 983143458}
+  - component: {fileID: 983143459}
+  - component: {fileID: 983143460}
+  - component: {fileID: 983143461}
+  - component: {fileID: 983143462}
+  - component: {fileID: 983143463}
+  - component: {fileID: 983143464}
   m_Layer: 0
   m_Name: crab-idle1
   m_TagString: Untagged
@@ -752,13 +759,102 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983143451}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fd322ba9d5719e44bacb83527680656, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ataque: 1
   dano: 1
+--- !u!114 &983143458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983143451}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa8ad0e7e4236243aa54d0e3e7140c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moeda: 0
+--- !u!114 &983143459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983143451}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 431189942389bcf4898f6a42883f7248, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pontuacao: 0
+--- !u!114 &983143460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983143451}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4854e0545338e184191e5eacf834c172, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fases: 0
+--- !u!114 &983143461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983143451}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 881d8d88942f53f45a1aa2c802e48ae0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &983143462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983143451}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27513d42afa95094e9d249a8213ad919, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &983143463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983143451}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 069c970b6de004c46b042ec122bfea0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &983143464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983143451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd544577d47725d4c98fd6793f9d8717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: ARTHUR
+  consoante: 0
 --- !u!1 &1458733398
 GameObject:
   m_ObjectHideFlags: 0
