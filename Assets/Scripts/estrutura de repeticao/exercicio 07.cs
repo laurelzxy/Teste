@@ -7,15 +7,21 @@ public class exercicio07 : MonoBehaviour
 {
     //Dada uma lista de números,encontre o maior valor.
 
-    int[] maior = { 12, 20, 40, 33, 22, 10 };
+    int[] numeros = { 12, 20, 40, 33, 22, 10 };
+    int maior = 0;
     void Start()
     {
-        for(int i = 0; i < maior.Length; i++)
+        maior = numeros[0];
+
+        foreach (var item in numeros)
         {
-            int a = maior[i];
-            int b = maior[i];
-            
+            if (item > maior)
+            {
+                maior = item;
+            }
         }
+
+        print(" O maior numero é: " + maior);
     }
 
     void Update()

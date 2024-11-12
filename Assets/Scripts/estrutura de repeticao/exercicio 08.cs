@@ -5,14 +5,13 @@ using UnityEngine;
 public class exercicio08 : MonoBehaviour
 {
     string nome = "laura";
-    string inverter;
+    string inverter= "";
     void Start()
     {
         for (int i =nome.Length - 1; i >= 0;  i--)
         {
-            char world = nome[i];
-            string letra = world.ToString();
-            inverter += letra;
+            
+            inverter += nome[i];
         }
         print("A palavra " + nome + " invertido é : " + inverter);
     }

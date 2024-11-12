@@ -13,7 +13,7 @@ public class exercicio05 : MonoBehaviour
         for (int i = 1; i <= 6; i++)
         {
             fases += 5;
-            print("Fase: " + i + "Dificuldade: " + fases);
+            print("Fase:" + i + " Dificuldade:" + fases);
         }
     }
 

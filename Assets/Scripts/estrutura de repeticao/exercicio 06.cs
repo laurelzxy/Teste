@@ -16,13 +16,13 @@ public class exercicio06 : MonoBehaviour
             {
                 print("Fiz buzzzzz");
             }
-            else if (nums % 5 == 0)
+            else if (nums % 3 == 0)
             {
-                print("Buzzzzz");
+                print("Fizzzzz");
 
-            } else if (nums % 3 == 0)
+            } else if (nums % 5 == 0)
             {
-                print("Fizzz");
+                print("Buzzzz");
             }else
             {
                 print(nums);
